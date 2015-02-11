@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<schematics>
+  <net id="1"/>
+  <net description="Vcc" id="2"/>
+  <net id="3"/>
+  <net description="GND" id="4"/>
+  <net id="5"/>
+  <diode net_from="1" net_to="4" resistance="2.822" reverse_resistance="6916792.635"/>
+  <capactor net_from="1" net_to="2" resistance="401311.260"/>
+  <resistor net_from="1" net_to="3" resistance="220.000"/>
+  <capactor net_from="1" net_to="5" resistance="657849.691"/>
+  <resistor net_from="2" net_to="1" resistance="3000.000"/>
+  <resistor net_from="2" net_to="4" resistance="1000.000"/>
+  <resistor net_from="2" net_to="5" resistance="1000.000"/>
+  <diode net_from="2" net_to="3" resistance="68.522" reverse_resistance="12100757.046"/>
+  <resistor net_from="3" net_to="1" resistance="500.000"/>
+  <capactor net_from="3" net_to="5" resistance="361189.120"/>
+  <resistor net_from="3" net_to="2" resistance="2000.000"/>
+  <resistor net_from="3" net_to="4" resistance="1000.000"/>
+  <diode net_from="4" net_to="1" resistance="155.502" reverse_resistance="14740684.777"/>
+  <resistor net_from="4" net_to="2" resistance="100.000"/>
+  <resistor net_from="4" net_to="3" resistance="10000.000"/>
+  <diode net_from="4" net_to="5" resistance="23.659" reverse_resistance="4956850.368"/>
+  <resistor net_from="5" net_to="2" resistance="500.000"/>
+  <capactor net_from="5" net_to="4" resistance="12811.071"/>
+  <diode net_from="5" net_to="1" resistance="238.375" reverse_resistance="10114868.911"/>
+  <resistor net_from="5" net_to="3" resistance="500.000"/>
+</schematics>
